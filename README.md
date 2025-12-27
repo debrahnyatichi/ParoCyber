@@ -22,9 +22,8 @@ Key areas covered include:
 
 ### Assignment 2: Nmap & Scapy Lab
 
-This assignment focused on hands-on reconnaissance, scanning, and packet-level analysis using **Nmap** and **Scapy**, two foundational tools in offensive and defensive cybersecurity operations.
+This assignment focused on reconnaissance, enumeration, OSINT, network sniffing, and packet crafting using Nmap and Scapy. It documents real-world techniques used to map networks, analyze traffic, and gather intelligence while emphasizing ethical and authorized testing practices.
 
-The lab emphasized understanding how network visibility, service discovery, and packet manipulation are performed in real-world security assessments.
 
 
 ---

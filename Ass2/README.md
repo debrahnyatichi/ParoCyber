@@ -2,68 +2,67 @@
 
 ## Overview
 
-This assignment involved reproducing practical labs using **Nmap** and **Scapy** to understand network discovery, service enumeration, OS fingerprinting, and packet-level interaction.
+This assignment documents hands-on reconnaissance, enumeration, OSINT, network analysis, and packet manipulation exercises conducted using industry-standard tools such as **Nmap** and **Scapy**.
 
-The objective was to move beyond tool usage and understand **how and why these techniques work** in real-world cybersecurity engagements.
-
----
-
-## Objectives
-
-- Perform host discovery and port scanning using Nmap
-- Identify services and operating systems on target hosts
-- Use Nmap scripting for basic enumeration
-- Craft, send, and sniff packets using Scapy
-- Analyze network traffic at the protocol level
+The focus of this lab was to understand how attackers and defenders gather intelligence, analyze network traffic, and identify exposed services in real-world cybersecurity environments.
 
 ---
 
-## Environment Setup
+## Lab Coverage
 
-- Operating System: Linux (Kali / Parrot OS)
-- Tools:
-  - Nmap
-  - Python 3
-  - Scapy
-- Target: Authorized lab environment / test network
+### 1. Nmap & Enumeration
+- DNS lookups and host discovery
+- Service and port enumeration
+- Advanced search and reconnaissance techniques
+- Network mapping and asset identification
 
----
-
-## Nmap Lab Summary
-
-The following Nmap scans were executed and documented:
-
-- Host discovery (ICMP, ARP, TCP-based)
-- Port scanning (TCP SYN, full connect)
-- Service and version detection
-- OS fingerprinting
-- Basic NSE scripting
+📁 Folder: `Nmap-and-Enumeration/`
 
 ---
 
-## Scapy Lab Summary
+### 2. OSINT (Open Source Intelligence)
+- Organization and domain intelligence gathering
+- Search engine and Shodan-based reconnaissance
+- Social media data collection techniques
+- Username and identity discovery
 
-Using Scapy, the following exercises were performed:
+📁 Folder: `OSINT/`
 
-- Packet crafting (IP, TCP, ICMP)
-- Sending and receiving packets
-- Sniffing live network traffic
-- Basic protocol analysis
-- Understanding packet fields and flags
+---
+
+### 3. Scapy & Network Analysis
+- Packet crafting and manipulation using Scapy
+- Network traffic sniffing and analysis
+- SSL/TLS information gathering
+- Understanding protocol behavior at packet level
+
+📁 Folder: `Scapy-and-Network-Analysis/`
+
+---
+
+## Tools & Technologies
+
+- Nmap
+- Scapy (Python)
+- DNS utilities
+- Shodan
+- OSINT frameworks and techniques
+- Linux networking tools
 
 ---
 
 ## Key Learning Outcomes
 
-- Network reconnaissance is foundational to both attack and defense
-- Nmap provides critical visibility into exposed services and systems
-- Scapy enables low-level packet manipulation beyond standard tools
-- Understanding traffic behavior improves detection and response capabilities
-- Proper documentation is essential for professional security work
+- Effective reconnaissance is critical to both offensive and defensive security
+- Nmap provides deep visibility into exposed network services
+- OSINT reveals organizational and human-level attack surfaces
+- Scapy enables low-level analysis beyond traditional scanning tools
+- Network traffic analysis improves detection and incident response
 
 ---
 
-## Disclaimer
+## Ethical Notice
 
-All scans and packet analysis were conducted in **authorized lab environments only**.  
-Unauthorized scanning or packet manipulation is illegal and unethical.
+All activities documented in this assignment were performed in **authorized lab environments** and are intended strictly for **educational purposes**.
+
+Unauthorized reconnaissance, scanning, or packet manipulation is illegal and unethical.

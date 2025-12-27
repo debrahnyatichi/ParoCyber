@@ -19,7 +19,7 @@ The agreement ensures that penetration testing activities are conducted legally,
 
 ## Deliverable
 
-- **Pentesting_Agreement.md**  
+- **Pentesting_Agreement.pdf**  
   A complete penetration testing agreement covering authorization, scope, confidentiality, reporting, and liability.
 
 ---
